@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'nunito', sans-serif;
+}
+
+
+
+
+.button_grp ul{
+	display:flex;
+flex-wrap: wrap;
+}
+.button_grp {
+
+	width: 100%;
+}
+
+.button_grp ul li{
+	background: #fff;
+	margin: 10px;
+	padding: 10px 15px;
+	min-width: 80px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.125);
+}
+
+.button_grp ul li.active,
+.button_grp ul li:hover{
+	background: rgb(255, 0, 88);
+	color: #fff;
+}
+
+@media screen and (max-width:767px) {
+	.store{width:400px}
+	.seccion01 p{
+		max-width:100%;
+		padding: 2rem;
+		top:initial;
+		bottom: 0;
+		transform: initial;
+		
+	}
+	.banner_contenido h5{
+		font-size: 3rem;
+	}
+	.seccion01 p{
+		font-size: 1.4rem;
+
+}
+}
+
+
+
+
